@@ -1,11 +1,6 @@
 import * as THREE from 'three';
 import { gsap } from 'gsap';
 
-// Game links configuration
-const gameLinks = [
-  'https://whatsapp.com/channel/0029Vaqa7F6002T8UOkUH82Y',
-  'https://whatsapp.com/channel/0029VaqYJyP2v1InW4NZuQ3n'
-];
 
 // Initialize Three.js background
 const initBackground = () => {
