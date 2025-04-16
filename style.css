@@ -7,7 +7,7 @@
 body {
   font-family: 'Arial', sans-serif;
   background: #000; /* Fondo negro */
-  color: #0f0; /* Texto verde */
+  color: #FFD700; /* Texto dorado */
   overflow-x: hidden;
 }
 
@@ -44,8 +44,8 @@ main {
 h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
-  text-shadow: 0 0 20px rgba(0, 255, 0, 0.7); /* Brillo verde */
-  background: linear-gradient(to right, #00ff00, #008000); /* Verde brillante a verde oscuro */
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.7); /* Brillo dorado */
+  background: linear-gradient(to right, #FFD700, #B8860B); /* Dorado brillante a dorado oscuro */
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -54,7 +54,7 @@ h1 {
 
 p {
   font-size: 1.5rem;
-  color: #0f0; /* Verde claro */
+  color: #FFD700; /* Dorado claro */
   margin-bottom: 2rem;
 }
 
@@ -69,7 +69,7 @@ p {
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  background: linear-gradient(45deg, #00ff00, #008000); /* Verde brillante a verde oscuro */
+  background: linear-gradient(45deg, #FFD700, #B8860B); /* Dorado brillante a dorado oscuro */
   border: none;
   border-radius: 50px;
   color: black;
@@ -90,7 +90,7 @@ p {
   transform: translate(-50%, -50%);
   width: 150%;
   height: 150%;
-  background: radial-gradient(circle, rgba(0, 255, 0, 0.4) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 215, 0, 0.4) 0%, transparent 70%);
   filter: blur(20px);
   z-index: -1;
   opacity: 0;
@@ -109,10 +109,10 @@ p {
 }
 
 .feature-card {
-  background: rgba(0, 255, 0, 0.1); /* Fondo verde translúcido */
+  background: rgba(255, 215, 0, 0.1); /* Fondo dorado translúcido */
   padding: 2rem;
   border-radius: 1rem;
-  border: 1px solid rgba(0, 255, 0, 0.2); /* Bordes verdes */
+  border: 1px solid rgba(255, 215, 0, 0.2); /* Bordes dorados */
   transition: transform 0.3s;
 }
 
@@ -121,22 +121,22 @@ p {
 }
 
 .feature-card h3 {
-  color: #0f0; /* Verde brillante */
+  color: #FFD700; /* Dorado brillante */
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .feature-card p {
-  color: #0f0; /* Verde claro */
+  color: #FFD700; /* Dorado claro */
   font-size: 1rem;
   margin: 0;
 }
 
 @keyframes glow {
   0%, 100% {
-    text-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
   }
   50% {
-    text-shadow: 0 0 40px rgba(0, 255, 0, 0.9);
+    text-shadow: 0 0 40px rgba(255, 215, 0, 0.9);
   }
 }
